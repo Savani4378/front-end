@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <center>
+    <h1><mark><span>Student Registration Form</span></mark></h1>
+    </center>
+    <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <table>
+                <tr>
+                    <td>First Name : </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Last Name : </td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Email : </td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number : </td>
+                    <td><input type="tel" minlength="10" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth : </td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Gender : </td>
+                    <td><input type="radio" name="Male" id="Male"> Male
+                    <input type="radio" name="Female" id="Female">Female </td>
+                </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Acedemic Information</legend>
+                <table>
+                    <tr>
+                        <td>Select Course : </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="--Select a course--" selected disabled>--Select a course--</option>
+                                <option value="Full Stack Java">Full Stack Java</option>
+                                <option value="Full Stack Python">Full Stack Python</option>
+                                <option value="Data Analyst">Data Analyst</option>
+                                <option value="Software Testing">Software Testing</option>
+                            </select>       
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Skills : </td>
+                        <td>
+                            <input type="text" list="Skills" name="Skill">
+                            <datalist id="Skills">
+                                <option value="HTML"></option>
+                                <option value="CSS"></option>
+                                <option value="JavaScript"></option>
+                                <option value="Java"></option>
+                                <option value="Python"></option>
+                                <option value="SQL"></option>   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address :</td>
+                        <td><textarea name="" id="" cols="30" rows="4"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Login Credentials</legend>
+                <table>
+                    <tr>
+                        <td>Username : </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Password : </td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password : </td>
+                        <td><input type="password"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Declaration</legend>
+                <table>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>I agree to the Terms & Conditions</td>
+                    </tr>
+                </table>
+                <button>Register</button>
+                <button>Reset</button>
+            </fieldset>
+        </table>
+    </form>
+</body>
+</html>
