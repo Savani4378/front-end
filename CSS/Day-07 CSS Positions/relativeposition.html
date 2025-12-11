@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RelativePosition</title>
+<style>
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+    }
+    #box1 {
+        background-color: red;
+        position: static;
+        left: 50px;
+
+    }
+    #box2{
+        background-color: blue;
+        position: relative;
+        /*left: 100px;
+        top : -100px;*/
+        right: 10px;
+        bottom: 50px;
+    }
+</style>
+</head>
+<body>
+    <h1>Relative Positions</h1>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+
+
+</body>
+</html>

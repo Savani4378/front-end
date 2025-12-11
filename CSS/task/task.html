@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .id1{ 
+            height:200px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy7BYe3pRm48pg_K140q5UdoNtoOLyljrPtw&s);
+            background-size: cover;
+            background-position: center;
+        }
+        .cards {
+            display: grid;  
+            grid-template-columns: repeat(4, 1fr);
+            margin-left: 100px;
+            margin-right: 100px;
+            gap: 20px;
+        }
+        .card {
+            position: relative;
+            height: 200px;
+            border-radius: 12px;
+            overflow: hidden;
+            padding: 16px;
+            display: flex;
+            align-items: flex-end;
+            background-size: cover;
+            background-position: center;
+            color: whitesmoke;
+        }
+        .badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 6px 10px;
+            font-size: 12px;
+            font-weight: bold;
+            color: whitesmoke;
+            border-radius: 6px;
+        }
+
+        .rent {
+            background:  rgb(245, 25, 25);
+        }
+        .sale {
+            background : rgb(0, 200, 0);
+        }
+        .content {
+            align-items: center;
+            z-index: 2;
+            margin-left: 50px;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 10px;
+            border-radius: 6px;
+        }
+        
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 15px 0 10px 0;
+        }
+        .card p {
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+        .price {
+            background: #25a61bb5;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="id1"></div> <center>
+    <h1>Recent Properties</h1>
+    <h4 class="section-sub">Discover how much the properties have appreciated where luxury meets living-Life</h4></center>
+    <section>
+    <div class="cards">
+        <div class="card" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5v4uOaTpTYzgAHs3h9d7reTJcqCJ_mtVBsA&s');">
+                <div class="badge rent">FOR RENT</div>
+            <div class="content">
+                    <div class="title">176 Vibhusha Banglows</div>
+                    <div class="location"><span class="pin">📍</span> Rochester, NY 14626</div>
+                    <center><div class="price">$500/month</div></center>
+                </div>
+        </div>
+        <div class="card" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh7VuWNywvbVbFD06amNk_zlK82JJV8n7X9Q&s');">
+                <div class="badge sale">FOR SALE</div>
+            <div class="content">
+                    <div class="title">Anuradha Soc.</div>
+                    <div class="location"><span class="pin">📍</span> Rochester, NY 14626</div>
+                    <center><div class="price">$190,000</div></center>
+                </div>
+        </div>
+        <div class="card"
+                style="background-image:url('https://www.zhcustomhomes.com/wp-content/uploads/2025/01/Modern-Luxury-Hill-Top-stacked-stone-entryway-white-stucco-Zbranek-and-Holt-Custom-Homes.jpg');">
+                <div class="badge rent">FOR RENT</div>
+                <div class="content">
+                    <div class="title">Kabir Enclave</div>
+                    <div class="location"><span class="pin">📍</span> Beverly Hills, CA 90210</div>
+                    <center><div class="price">$550/month</div></center>
+                </div>
+        </div>
+        <div class="card"
+                style="background-image:url('https://hips.hearstapps.com/hmg-prod/images/imagereader-3-1550604839.jpg');">
+                <div class="badge sale">FOR SALE</div>
+                <div class="content">
+                    <div class="title">249, Sterling city</div>
+                    <div class="location"><span class="pin">📍</span> Austin, TX 73301</div>
+                    <center><div class="price">$100,000</div></center>
+                </div>
+            </div>
+    </div>
+    </section>
+    <section>
+        <div class="cards">
+            <div class="card"
+                style="background-image:url('https://assets.architecturaldigest.in/photos/60083b47f93542952b6654fd/16:9/w_2560%2Cc_limit/ahmedabad-sudhir-bungalow-featured-image-1366x768.jpg');">
+                <div class="badge rent">FOR RENT</div>
+                <div class="content">
+                    <div class="title">10, abhijyot</div>
+                    <div class="location"><span class="pin">📍</span> Denver, CO 80203</div>
+                    <center><div class="price">$430/month</div></center>
+                </div>
+            </div>
+            <div class="card"
+                style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTvNQkILeikin_C6OiAt6PLHQqhv6SFdpz5w&s');">
+                <div class="badge sale">FOR SALE</div>
+                <div class="content">
+                    <div class="title"></div>
+                    <div class="location"><span class="pin">📍</span> San Diego, CA 92103</div>
+                    <center><div class="price">$1,277,000</div></center>
+                </div>
+            </div>
+            
+            <div class="card"
+                style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz8wT0RgpWs4giJ5s77e8wo-kllOTV1JrGgQ&s');">
+                <div class="badge sale">FOR SALE</div>
+                <div class="content">
+                    <div class="title">711 Sunset Valley Rd</div>
+                    <div class="location"><span class="pin">📍</span> Las Vegas, NV 89109</div>
+                    <center><div class="price">$2,980,000</div></center>
+                </div>
+            </div>
+            <div>
+            <div class="card"
+                style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYFCwM9Yeph7bHtlsiFB_4dK7EB-7PmNiqQ&s');">
+                <div class="badge rent">FOR RENT</div>
+                <div class="content">
+                    <div class="title">169 City Studio</div>
+                    <div class="location"><span class="pin">📍</span> Delhi, IN 89053</div>
+                    <center><div class="price">$10000/month</div></center>
+                </div>
+            </div>
+            </div>
+            
+    </section>
+</body>
+</html>
