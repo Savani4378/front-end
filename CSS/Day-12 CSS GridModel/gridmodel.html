@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Model</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .grid-parent {
+            width: 100%;
+            border: 2px solid yellow;
+            display: grid;
+            /*grid-template-columns: 100px 200px 300px;*/
+            /*grid-template-columns: 10% 20% 30%;*/
+            /*grid-template-columns: auto auto auto;*/
+            grid-template-columns: 1fr 2fr 3fr;
+            grid-template-rows: 100px 200px 100px 200px;
+            gap: 10px;
+        }
+
+        .griditem {
+            padding: 20px;
+            border: 3px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="grid-parent">
+        <div class="griditem">griditem-1</div>
+        <div class="griditem">griditem-2</div>
+        <div class="griditem">griditem-3</div>
+        <div class="griditem">griditem-4</div>
+        <div class="griditem">griditem-5</div>
+        <div class="griditem">griditem-6</div>
+        <div class="griditem">griditem-7</div>
+        <div class="griditem">griditem-8</div>
+        <div class="griditem">griditem-9</div>
+        <div class="griditem">griditem-10</div>
+    </div>
+</body>
+</html>
