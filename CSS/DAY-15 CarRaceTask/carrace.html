@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .race-track {
+            width: 100%;
+            padding: 10px 0px;
+        }
+
+        .racing-path {
+            width: 90%;
+            height: 80px;
+            border: 3px dashed black;
+            margin: 50px auto;
+            border-radius: 50px;
+            position: relative;
+        }
+
+        h2 {
+            position: absolute;
+            top: -35px;
+            left: 20px;
+        }
+
+        img {
+            position: absolute;
+            left: 10px;
+            top: 5px;
+            width: 150px;
+            border-radius: 20px;
+            animation: driveCars 30s forwards;
+        }
+
+        @keyframes driveCars {
+            from {
+                left: 10px;
+            }
+            to {
+                left: calc(90% - 10px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="race-track">
+        <div class="racing-path">
+            <h2>Dhammal-plane-scene</h2>
+            <img src="../Assets/Dhammal-plane-scene.png" alt="">
+        </div>
+    </div>
+    <div class="race-track">
+        <div class="racing-path">
+            <h2>Dhmaal-car-scene</h2>
+            <img src="../Assets/Dhmaal-car-scene.png" alt="">
+        </div>
+    </div>
+    <div class="race-track">
+        <div class="racing-path">
+            <h2>Road-Roller-Scene</h2>
+            <img src="../Assets/Road-Roller-Scene.png" alt="">
+        </div>
+    </div>
+    <div class="race-track">
+        <div class="racing-path">
+            <h2>Salman-Khan-tzh</h2>
+            <img src="../Assets/salman-khan-tzh.jpg" alt="">
+        </div>
+    </div>
+    <div class="race-track">
+        <div class="racing-path">
+            <h2>Welcome-movie-car-scene</h2>
+            <img src="../Assets/Welcome-movie-car-scene.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
