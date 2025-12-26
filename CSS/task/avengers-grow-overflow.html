@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Edu NSW ACT Foundation", cursive;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .parent {
+            width: 90%;
+            height: 500px;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+        }
+
+        h2 {
+            margin: 20px;
+            text-align: center;
+            color: whitesmoke;
+            transition: all 0.2s linear;
+            opacity: 0;
+        }
+
+        .avengers {
+            flex-basis: 10%;
+            height: 90%;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            transition: all 0.5s linear;
+        }
+
+        .avengers:hover {
+            flex-grow: 0.5;
+            overflow: auto;transition: all 0.5s linear;
+            transform: scale(1.02);
+            h2 {
+                opacity: 1;
+            }
+        }
+
+        .avengers:nth-child(1) {
+            background-image: url(../Assets/1.\ Iron\ Man.jpg);
+        }
+        .avengers:nth-child(2) {
+            background-image: url(../Assets/2.\ captain\ America.jpg);
+        }
+        .avengers:nth-child(3) {
+            background-image: url(../Assets/3.\ Thor.jpg);
+        }
+        .avengers:nth-child(4) {
+            background-image: url(../Assets/4.\ Hulk.jpg);
+        }
+        .avengers:nth-child(5) {
+            background-image: url(../Assets/5.\ Black\ Widow.jpg);
+        }
+        .avengers:nth-child(6) {
+            background-image: url(../Assets/6.\ Howkeye.jpg);
+        }
+        .avengers:nth-child(7) {
+            background-image: url(../Assets/9.\ Spider-Man.jpg);
+        }
+        .avengers:nth-child(8) {
+            background-image: url(../Assets/10.\ Dr.\ Strange.jpg);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Avengers All Team Members</h1>
+    <div class="parent">
+        <div class="avengers"><h2>1. Iron Man</h2></div>
+        <div class="avengers"><h2>2. Captain America</h2></div>
+        <div class="avengers"><h2>3. Thor</h2></div>
+        <div class="avengers"><h2>4. Hulk</h2></div>
+        <div class="avengers"><h2>5. Black Widow</h2></div>
+        <div class="avengers"><h2>6. Hawkeye</h2></div>
+        <div class="avengers"><h2>7. Spider-Man</h2></div>
+        <div class="avengers"><h2>8. Dr. Strange</h2></div>
+    </div>
+</body>
+</html>

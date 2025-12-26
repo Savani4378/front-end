@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Grow</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: "Edu NSW ACT Foundation", cursive;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin: 30px;
+            color: white;
+            text-align: center;
+        }
+
+        .parent {
+            width: 90%;
+            height: 75vh;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            overflow: hidden;
+        }
+
+        .child {
+            flex-basis: 10%;
+            height: 90%;
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            transition: all 0.5s linear;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 10px;
+            /*transform: translateY(-100px);*/
+            transition: all 0.2s linear;
+            opacity: 0;
+        }
+
+        .child:hover {
+           flex-grow: 0.5;
+           transform: scale(1.02);
+           h2 {
+            opacity: 1;
+           }
+        }   
+
+        .child:nth-child(1) {
+            background-image: url(https://cdn.bfldr.com/UTM69Z3S/at/7snvxqh9v53gcpnqm8gr7jh/william-olivieri-HwY9R6_YzgM-unsplash-LOWRES.jpg?auto=webp&crop=3%3A2&quality=60&width=768);
+        }
+
+        .child:nth-child(2) {
+            background-image: url(https://cdn.bfldr.com/UTM69Z3S/at/hm2hcrkvnsng9h7r3f7wxfz/brian-kairuz-eoZTnFtusDs-unsplash-LOWRES.jpg?auto=webp&crop=3%3A2&quality=60&width=768);
+        }
+
+        .child:nth-child(3) {
+            background-image: url(https://cdn.bfldr.com/UTM69Z3S/at/w8jhngx4gqkpr43s2r4g9q/diego-allen-f3PVgtTVbb8-unsplash-LOWRES.jpg?auto=webp&crop=3%3A2&quality=60&width=768);
+        }
+
+        .child:nth-child(4) {
+            background-image: url(https://cdn.bfldr.com/UTM69Z3S/at/pxhfmz63qvt36zfvr5w6mjqx/pexels-chris-medina-571461651-17202486-LOWRES.jpg?auto=webp&crop=3%3A2&quality=60&width=768);
+        }
+
+        .child:nth-child(5) {
+            background-image: url(https://cdn.bfldr.com/UTM69Z3S/at/r86xrg7jr4j3czg75k8n4zgp/hongbin-BcXAaDA1SBw-unsplash-LOWRES.jpg?auto=webp&crop=3%3A2&quality=60&width=768);
+        }
+
+        .child:nth-child(6) {
+            background-image: url(https://cdn.bfldr.com/UTM69Z3S/at/x37t2njhbqk56c579mfwr4k/t178907_Rome_-_Secrets_of_Rome_Walking_Tour_with_Espresso_Tasting-1.jpg?auto=webp&crop=3%3A2&quality=60&width=768);
+        }
+
+        .child:nth-child(7) {
+            background-image: url(https://cdn.bfldr.com/UTM69Z3S/at/77mb5vxwh43hnb9rtjpwhc3x/bharath-reddy-3UDKNMKfFss-unsplash-LOWRES.jpg?auto=webp&crop=3%3A2&quality=60&width=768);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>7 Wonders of World</h1>
+    <div class="parent">
+        <div class="child">
+            <h2>1. Great Wall of China, China</h2>
+        </div>
+        <div class="child">
+            <h2>2. Petra, Jordan</h2>
+        </div>
+        <div class="child">
+            <h2>3. Christ the Redeemer, Brazil</h2>
+        </div>
+        <div class="child">
+            <h2>4. Machu Picchu, Peru</h2>
+        </div>
+        <div class="child">
+            <h2>5. Chichen Itza, Mexico</h2>
+        </div>
+        <div class="child">
+            <h2>6. Colosseum, Italy</h2>
+        </div>
+        <div class="child">
+            <h2>7. Taj Mahal, India</h2>
+        </div>
+    </div>
+</body>
+</html>
