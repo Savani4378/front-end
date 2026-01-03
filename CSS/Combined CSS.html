@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined CSS</title>
+    <style>
+        :root {
+            background-color: #720026;
+        }
+        * {
+            margin: 0px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+            text-align: center;
+
+        }
+
+        h1 {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        button {
+            width: 200px;
+            height: 50px;
+            margin: 10px;
+            border: 2px solid #FFE7E7;
+            border-radius: 15px;
+            background-color: gray;
+        }
+
+        .child {
+            margin: 10px;
+        }
+
+        .parent {
+            margin: 30px;
+            border: 2px solid #FFE7E7;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            grid-gap: 10px;
+            padding: 10px
+        }
+
+        .parent-2 {
+            margin: 30px;
+            border: 2px solid #FFE7E7;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            grid-gap: 10px;
+            padding: 10px
+        }
+    </style>
+</head>
+<body>
+    <h1>Whole CSS in One (Combined)</h1>
+    <div class="parent">
+        <div class="child" id="child-1">
+            <h2>DAY-01 CSS <br> Introduction</h2>
+            <p><button><a href="./DAY-01-IntroductionToCSS/Combinators-Selectors/adjcentsiblingselector.html">Adjcent Sibling Selector</a></button>
+            <button><a href="./DAY-01-IntroductionToCSS/Combinators-Selectors/childselector.html">Child Selector</a></button></p>
+            <p><button><a href="./DAY-01-IntroductionToCSS/Combinators-Selectors/descendentselectors.html">Descendent Selectors</a></button>
+            <button><a href="./DAY-01-IntroductionToCSS/Combinators-Selectors/generalsiblingselector.html">General Sibling Selector</a></button></p>
+            <p><button><a href="./DAY-01-IntroductionToCSS/Combinators-Selectors/groupingselector.html">Grouping Selector</a></button>
+            <button><a href="./DAY-01-IntroductionToCSS/Combinators-Selectors/simpleselectors.html">Simple Selectors</a></button></p>
+            <p><button><a href="./DAY-01-IntroductionToCSS/inline.html">Inline CSS</a></button>
+            <button><a href="./DAY-01-IntroductionToCSS/internal.html">Internal CSS</a></button></p>
+            <p><button><a href="./DAY-01-IntroductionToCSS/external.html">External CSS</a></button></p>
+        </div>
+        <div class="child" id="child-2">
+            <h2>DAY-02 CSS <br> Pseudo</h2>
+            <p><button><a href="./DAY-02 CSS/pseudoclass2.html">Pseudo Class 2</a></button></p>
+            <p><button><a href="./DAY-02 CSS/pseudoclassselectors.html">Pseudo Class Selectors</a></button></p>
+            <p><button><a href="./DAY-02 CSS/structuralpseudoclass.html">Structural Pseudo Class</a></button></p>
+        </div>
+        <div class="child" id="child-3">
+            <h2>DAY-03 CSS <br> Pseudo Element Selector</h2>
+            <p><button><a href="./DAY-03 CSSPsuedoElementSelectors/fontproperties.html">Font Properties</a></button></p>
+            <p><button><a href="./DAY-03 CSSPsuedoElementSelectors/psuedoelementselector.html">Psuedo Element Selector</a></button></p>
+            <p><button><a href="./DAY-03 CSSPsuedoElementSelectors/textdecoration.html">Text Decoration</a></button></p>
+            <p><button><a href="./DAY-03 CSSPsuedoElementSelectors/textproperties.html">Text Properties</a></button></p>
+        </div>
+        <div class="child" id="child-4">
+            <h2>DAY-04 CSS <br> Box Model</h2>
+            <p><button><a href="./Day-04 CSS BoxModel/borderproperties.html">Border Properties</a></button></p>
+            <p><button><a href="./Day-04 CSS BoxModel/boxmodel.html">Box Model</a></button></p>
+            <p><button><a href="./Day-04 CSS BoxModel/boxmodel2.html">Box Model 2</a></button></p>
+            <p><button><a href="./Day-04 CSS BoxModel/boxmodel3.html">Box Model 3</a></button></p>
+            <p><button><a href="./Day-04 CSS BoxModel/colorsincss.html">Colors in CSS</a></button></p>
+        </div>
+        <div class="child" id="child-5">
+            <h2>DAY-05 CSS <br> Gradients</h2>
+            <p><button><a href="./DAY-05 CSS Gradients/lineargradients.html">Linear Gradients</a></button></p>
+            <p><button><a href="./DAY-05 CSS Gradients/radialgradients.html">Radial Gradients</a></button></p>
+        </div>
+        <div class="child" id="child-6">
+            <h2>DAY-06 CSS <br> Background Properties</h2>
+            <p><button><a href="./DAY-06 CSS Background Properties/backgroundproperties1.html">Background Properties 1</a></button></p>
+            <p><button><a href="./DAY-06 CSS Background Properties/backgroundproperties2.html">Background Properties 2</a></button></p>
+            <p><button><a href="./DAY-06 CSS Background Properties/backgroundproperties3.html">Background Properties 3</a></button></p>
+            <p><button><a href="./DAY-06 CSS Background Properties/backgroundproperties4.html">Background Properties 4</a></button></p>
+            <p><button><a href="./DAY-06 CSS Background Properties/backgroundproperties5.html">Background Properties 5</a></button></p>
+        </div>
+        <div class="child" id="child-7">
+            <h2>DAY-07 CSS <br> Positions</h2>
+            <p><button><a href="./Day-07 CSS Positions/absoluteposition.html">Absolute Position</a></button></p>
+            <p><button><a href="./Day-07 CSS Positions/fixedposition.html">Fixed Position</a></button></p>
+            <p><button><a href="./Day-07 CSS Positions/relativeposition.html">Relative Position</a></button></p>
+            <p><button><a href="./Day-07 CSS Positions/stickyposition.html">Sticky Position</a></button></p>
+        </div>
+        <div class="child" id="child-8">
+            <h2>DAY-08 CSS <br> Flex Box</h2>
+            <p><button><a href="./DAY-08 CSS FlexBox/clippath.html">Clip Path</a></button></p>
+            <p><button><a href="./DAY-08 CSS FlexBox/flex1.html">Flex 1</a></button></p>
+            <p><button><a href="./DAY-08 CSS FlexBox/flex2.html">Flex 2</a></button></p>
+        </div>
+        <div class="child" id="child-9">
+            <h2>DAY-09 CSS <br> Flex Box</h2>
+            <p><button><a href="./DAY-09 CSS FlexBox/flexwarp.html">Flex Wrap</a></button></p>
+        </div>
+        <div class="child" id="child-10">
+            <h2>DAY-10 CSS <br> Flex Child Properties</h2>
+            <p><button><a href="./DAY-10 CSS FlexChildProperties/flex-grow-shrink.html">Flex Grow Shrink</a></button></p>
+            <p><button><a href="./DAY-10 CSS FlexChildProperties/order.html">Order</a></button></p>
+        </div>
+        <div class="child" id="child-11">
+            <h2>DAY-11 CSS <br> Grid Parent(Parent)</h2>
+            <p><button><a href="./DAY-11 CSS GridModel(Parent)/grid1.html">Grid</a></button></p>
+        </div>
+        <div class="child" id="child-12">
+            <h2>DAY-12 CSS <br> Grid Model</h2>
+            <p><button><a href="./Day-12 CSS GridModel/gridmodel.html">Grid Model 1</a></button></p>
+            <p><button><a href="./Day-12 CSS GridModel/gridmodel2.html">Grid Model 2</a></button></p>
+        </div>
+        <div class="child" id="child-13">
+            <h2>DAY-13 CSS <br> Grid Model(Areas)</h2>
+            <p><button><a href="./DAY-13 CSS GridModel(Areas)/gridareas.html">Grid Areas 1</a></button></p>
+            <p><button><a href="./DAY-13 CSS GridModel(Areas)/gridareas2.html">Grid Areas 2</a></button></p>
+            <p><button><a href="./DAY-13 CSS GridModel(Areas)/gridareas3.html">Grid Areas 3</a></button></p>
+        </div>
+        <div class="child" id="child-14">
+            <h2>DAY-14 CSS <br> Transformation & Transition</h2>
+            <p><button><a href="./DAY-14 CSS Transformation/rotate.html">Rotate</a></button></p>
+            <p><button><a href="./DAY-14 CSS Transformation/scale.html">Scale</a></button></p>
+            <p><button><a href="./DAY-14 CSS Transformation/skew.html">Skew</a></button></p>
+            <p><button><a href="./DAY-14 CSS Transformation/translate.html">Translate</a></button></p>
+            <p><button><a href="./DAY-14 CSS Transition/transition1.html">Transition</a></button></p>
+        </div>
+        <div class="child" id="child-15">
+            <h2>DAY-15 CSS <br> Car Race Task</h2>
+            <p><button><a href="./DAY-15 CSS CarRaceTask/carrace.html">Car race</a></button></p>
+        </div>
+        <div class="child" id="child-17">
+            <h2>DAY-17 CSS <br> Text Move</h2>
+            <p><button><a href="./DAY-17 CSS TextMove/bouncingballs.html">Bouncing Balls</a></button></p>
+            <p><button><a href="./DAY-17 CSS TextMove/loadingspinner.html">Loading Spinner</a></button></p>
+            <p><button><a href="./DAY-17 CSS TextMove/textmove.html">Text Move</a></button></p>
+        </div>
+        <div class="child" id="child-18">
+            <h2>DAY-18 CSS <br> Media Queries</h2>
+            <p><button><a href="./DAY-18 CSS MediaQueries/flex-grow.html">Flex Grow</a></button></p>
+            <p><button><a href="./DAY-18 CSS MediaQueries/mediaqueries.html">Media Queries</a></button></p>
+            <p><button><a href="./DAY-18 CSS MediaQueries/overflow.html">Over Flow</a></button></p>
+            <p><button><a href="./DAY-18 CSS MediaQueries/print.html">Print</a></button></p>
+        </div>
+        <div class="child" id="child-19">
+            <h2>DAY-19 CSS <br> List Styling</h2>
+            <p><button><a href="./DAY-19 CSS List Styling/filter.html">Filter</a></button></p>
+            <p><button><a href="./DAY-19 CSS List Styling/liststyling.html">List Styling</a></button></p>
+            <p><button><a href="./DAY-19 CSS List Styling/object-fit.html">Object Fit</a></button></p>
+            <p><button><a href="./DAY-19 CSS List Styling/tablestyling.html">Table Styling</a></button></p>
+            <p><button><a href="./DAY-19 CSS List Styling/var.html">Var</a></button></p>
+        </div><div></div><br></div>
+        
+          <h2>CSS Tasks</h2>
+          <div class="parent-2" id="task">
+          
+            <p><button><a href="./task/avengers-grow-overflow.html">Avengers Grow Work Flow Task</a></button></p>
+            <p><button><a href="./task/bookopening.html">Book Opening Task</a></button></p>
+            <p><button><a href="./task/daydreamsoft-task.html">Day Dream Soft Task</a></button></p>
+            <p><button><a href="./task/emailandflag_conic_gradient.html">E-Mail and Flag Conic Gradient</a></button></p>
+            <p><button><a href="./task/f1_cars.html">F1 Cars</a></button></p>
+            <p><button><a href="./task/flex-2.html">Flex 1</a></button></p>
+            <p><button><a href="./task/flex.html">Flex 2</a></button></p>
+            <p><button><a href="./task/grid-task2.html">Grid Task 1</a></button></p>
+            <p><button><a href="./task/grid-task3.html">Grid Task 2</a></button></p>
+            <p><button><a href="./task/gridareatask.html">Grid Area Task</a></button></p>
+            <p><button><a href="./task/gridmodel.html">Grid Model</a></button></p>
+            <p><button><a href="./task/inextrix.html">Inextrix</a></button></p>
+            <p><button><a href="./task/jobapplicationform.html">Job Application Form</a></button></p>
+            <p><button><a href="./task/listtask.html">List Task</a></button></p>
+            <p><button><a href="./task/musicmania.html">Music Mania</a></button></p>
+            <p><button><a href="./task/odi_wc_squad.html">ODI WC Squad</a></button></p>
+            <p><button><a href="./task/orange_technolab.html">Orange Techno Lab</a></button></p>
+            <p><button><a href="./task/resume.html">Resume</a></button></p>
+            <p><button><a href="./task/scorecard.html">Score Card</a></button></p>
+            <p><button><a href="./task/starbugs.html">StarBugs</a></button></p>
+            <p><button><a href="./task/student_registration_form.html">Student Reg. Form</a></button></p>
+            <p><button><a href="./task/task.html">Hotel Booking</a></button></p>
+</body>
+</html>
