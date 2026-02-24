@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined CSS</title>
+    <style>
+        :root {
+            background-color: #720026;
+        }
+        * {
+            margin: 0px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+            text-align: center;
+
+        }
+
+        h1 {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        button {
+            width: 200px;
+            height: 50px;
+            margin: 10px;
+            border: 2px solid #FFE7E7;
+            border-radius: 15px;
+            background-color: gray;
+        }
+
+        .child {
+            margin: 10px;
+        }
+
+        .parent {
+            margin: 30px;
+            border: 2px solid #FFE7E7;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            grid-gap: 10px;
+            padding: 10px
+        }
+
+        .parent-2 {
+            margin: 30px;
+            border: 2px solid #FFE7E7;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            grid-gap: 10px;
+            padding: 10px
+        }
+    </style>
+</head>
+<body>
+    <h1>Whole CSS in One (Combined)</h1>
+    <div class="parent">
+        <div class="child" id="child-1">
+            <h2>DAY-01 Introduction to <br> JavaScript</h2>
+            <p><button><a href="./DAY-01 Introduction to JS/index.html">Hello JS</a></button>
+            <button><a href="./DAY-01 Introduction to JS/internal-js.html">Internal JS</a></button></p>
+            <p><button><a href="./DAY-01 Introduction to JS/inline-js.html">Inline JS</a></button>
+            <button><a href="./DAY-01 Introduction to JS/external-js.html">External JS</a></button></p>
+        </div>
+        <div class="child" id="child-2">
+            <h2>DAY-02 Variables</h2>
+            <p><button><a href="./DAY-02 Variables/var.html">var Variable</a></button></p>
+            <p><button><a href="./DAY-02 Variables/let.html">let Variable</a></button></p>
+            <p><button><a href="./DAY-02 Variables/const.html">const Variable</a></button></p>
+        </div>
+        <div class="child" id="child-3">
+            <h2>DAY-03 Datatypes, Scopes and Tokens</h2>
+            <p><button><a href="./DAY-03 DataTypes/datatypes.html">Data Types</a></button></p>
+            <p><button><a href="./DAY-03 CSSPsuedoElementSelectors/psuedoelementselector.html">Scopes</a></button></p>
+            <p><button><a href="./DAY-03 Tokens/tokens.html">Tokens</a></button></p>
+        </div>
+        <div class="child" id="child-4">
+            <h2>DAY-04 Operators</h2>
+            <p><button><a href="./DAY-04 Operators/operators.html">Operators</a></button></p>
+        </div>
+        <div class="child" id="child-5">
+            <h2>DAY-05, 06, 07, 08, 09 <br> Functions</h2>
+            <p><button><a href="./DAY-05 Functions/functions.html">Functions-1</a></button></p>
+            <p><button><a href="./DAY-06 Functions/functions.html">Functions-2</a></button></p>
+            <p><button><a href="./DAY-07 Functions/functions.html">Functions-3</a></button></p>
+            <p><button><a href="./DAY-08 Functions/functions.html">Functions-4</a></button></p>
+            <p><button><a href="./DAY-09 Functions/functions.html">Functions-5</a></button></p>
+        </div>
+        <div class="child" id="child-6">
+            <h2>DAY-10 Strings</h2>
+            <p><button><a href="./DAY-10 Strings/string.html">Strings</a></button></p>
+        </div>
+        <div class="child" id="child-7">
+            <h2>DAY-11 Array</h2>
+            <p><button><a href="./DAY-11 Array/array.html">Array</a></button></p>
+        </div>
+        <div class="child" id="child-8">
+            <h2>DAY-12 Objects & Methods</h2>
+            <p><button><a href="./DAY-12 Object & Methods/objectmethods.html">Objects & Methods</a></button></p>
+        </div>
+        <div class="child" id="child-9">
+            <h2>DAY-13 Array Iteration Methods</h2>
+            <p><button><a href="./DAY-13 Array Iteration Methods/arrayiterationmethods.html">Array Iteration Methods</a></button></p>
+        </div>
+        <div class="child" id="child-10">
+            <h2>DAY-14 Math Object</h2>
+            <p><button><a href="./DAY-14 MathObject in JS/math.html">Math Object</a></button></p>
+            <p><button><a href="./DAY-14 MathObject in JS/guessvalue.html">Guess Value</a></button></p>
+        </div>
+        <div class="child" id="child-11">
+            <h2>DAY-15 Date Object</h2>
+            <p><button><a href="./DAY-15 DateObject In JS/dateobject.html">Date Object</a></button></p>
+            <p><button><a href="./DAY-15 DateObject In JS/ageCalculator.html">Age Calculator</a></button></p>
+        </div>
+        <div class="child" id="child-12">
+            <h2>DAY-16 Call Apply and Bind</h2>
+            <p><button><a href="./Day-16 Call Apply Bind/callapplybind.html">Call Apply and Bind</a></button></p>
+        </div>
+        <div class="child" id="child-13">
+            <h2>DAY-17 </h2>
+            <p><button><a href="."></a></button></p>
+        </div>
+        <div class="child" id="child-14">
+            <h2>DAY-18 </h2>
+            <p><button><a href="."></a></button></p>
+        </div>
+        <div class="child" id="child-15">
+            <h2>DAY-19 </h2>
+            <p><button><a href="."></a></button></p>
+        </div>
+        <div class="child" id="child-17">
+            <h2>DAY-20 </h2>
+            <p><button><a href="."></a></button></p>
+        </div>
+        <div class="child" id="child-18">
+            <h2>DAY-21 </h2>
+            <p><button><a href="."></a></button></p>
+        </div>
+        <div class="child" id="child-19">
+            <h2>DAY-22 </h2>
+            <p><button><a href="."></a></button></p>
+</div><div></div><br></div>
+</body>
+</html>
